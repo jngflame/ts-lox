@@ -48,4 +48,4 @@ export default class Lox {
   }
 }
 
-Lox.main()
+Lox.main();
