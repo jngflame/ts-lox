@@ -1,0 +1,7 @@
+{
+  "deno.enable": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+  "code-runner.executorMap": {
+    "typescript": "deno"
+  }
+}
