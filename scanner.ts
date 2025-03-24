@@ -22,15 +22,12 @@ const KEYWORDS: Map<string, TokenType> = new Map([
 ]);
 
 export class Scanner {
-  private source: string;
   private tokens: Token[] = [];
   private start: number = 0;
   private current: number = 0;
   private line: number = 1;
 
-  constructor(source: string) {
-    this.source = source;
-  }
+  constructor(private source: string) {}
 
   private isAtEnd(): boolean {
     return this.current >= this.source.length;
