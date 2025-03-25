@@ -13,8 +13,8 @@ export enum TokenType {
   STAR,
 
   // One or two character tokens.
-  BANG,
-  BANG_EQUAL,
+  BANG, // !
+  BANG_EQUAL, // !=
   EQUAL,
   EQUAL_EQUAL,
   GREATER,

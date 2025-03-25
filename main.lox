@@ -1,4 +1,1 @@
-var breakfast = "bagels";
-print breakfast; // "bagels".
-breakfast = "beignets";
-print breakfast; // "beignets".
+3 + 2 +-3 - -3
